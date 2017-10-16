@@ -20,6 +20,10 @@ list(set = set, get = get, setinverse = setinverse, getinverse = getinverse) ##f
 
 ## Write a short comment describing this function
 
+## This Function computes the inverse of the matrix created above
+## if the inverse is already calculated, The function below will 
+## retrieve the inverse from cache
+
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
 invr <- x$getinverse()
